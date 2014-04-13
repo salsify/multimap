@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name     = 'multimap'
-  s.version  = '1.1.2'
-  s.date     = '2009-12-24'
+  s.version  = '1.1.3'
+  s.date     = '2014-04-13'
   s.summary  = 'Ruby multimap implementation'
   s.description = <<-EOS
     Multimap includes a Ruby multimap implementation
@@ -22,5 +22,6 @@ Gem::Specification.new do |s|
 
   s.author   = 'Joshua Peek'
   s.email    = 'josh@joshpeek.com'
-  s.homepage = 'http://github.com/josh/multimap'
+  s.homepage = 'http://github.com/doxavore/multimap'
+  s.license  = 'MIT'
 end
