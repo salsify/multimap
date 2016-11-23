@@ -18,7 +18,7 @@ class Multiset < Set
   end
 
   def include?(e)
-    @hash[e] != 0
+    @hash.include?(e)
   end
 
   # Returns the number of times an element belongs to the multiset.
